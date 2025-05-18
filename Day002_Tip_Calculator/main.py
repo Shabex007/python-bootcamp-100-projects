@@ -1,0 +1,5 @@
+bill = float(input("What is your total bill\n"))
+tip = float(input("How much tip would you like ot give\n"))
+split = int(input("How many people to split the bill\n"))
+float(split)
+print(round(((bill + (bill*(tip/100)))/split),2))
